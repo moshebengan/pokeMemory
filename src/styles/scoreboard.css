@@ -1,0 +1,66 @@
+.scoreboard {
+  height: fit-content;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+
+  background-image: linear-gradient(
+    to right top,
+    #eed6e4,
+    #edbcd4,
+    #eba0c1,
+    #ea84aa,
+    #e76591,
+    #e85984,
+    #e84b77,
+    #e83d69,
+    #ed4666,
+    #f24e64,
+    #f75761,
+    #fb5f5f
+  );
+}
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.brand_container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand_img {
+  
+  width: 64px;
+  height: auto;
+}
+
+.brand_text {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+  font-family: "Pokemon Solid", sans-serif;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.scores_container {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 6px 0;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Pokemon Solid", sans-serif;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.showScore {
+  padding: 0 6px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+.mainboard_container {
+  background-image: url(../assets/PokemonArena.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  max-width: 100%;
+flex-grow: 1;
+}
+
+.mainboard {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10dvh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.mainboard_flex {
+    max-width: 100%;
+    padding-top: 10dvh;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

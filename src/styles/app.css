@@ -1,0 +1,14 @@
+.app {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    width: 100dvw;
+    height: 100dvh;
+    font-family: 'Robotto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+
+}

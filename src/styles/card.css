@@ -1,0 +1,33 @@
+.card {
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 12px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    
+    flex-direction: column;
+    -webkit-box-shadow: 5px -2px 15px -4px #000000; 
+    box-shadow: 5px -2px 15px -4px #000000;
+}
+    
+
+    .card_img {
+        width: 150px;
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    
+
+    .card_text {
+        width: 150px;
+        text-align: center;
+        
+        padding: 8px 6px 0 6px;
+    }
